@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 13px 'Tahoma', 'Helvetica', sans-serif;
+    background-color: #EBEBEB;
+}
+
+header {
+    background-color: #F1F1F1;
+    width: 90%;
+    margin: 0 auto;
+    padding: 25px 0 25px 0;
+    border-bottom: 2px dashed #DADADA;
+}
+
+h1 {
+    font-size: 28px;
+    color: #459BE4;
+    font-weight: 100;
+    padding: 5px;
+}
+
+section {
+    width: 90%;
+    margin: 25px auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+section#basic-info, section#details {
+    border-bottom: 2px dashed #DADADA;
+}
+
+h2 {
+    display: block;
+    font-size: 16px;
+}
+
+p {
+    display: inline-block;
+    width: 57%;
+    padding: 10px 0 10px 0;
+}
+
+#search-form{
+    display: inline-block;
+    float: right;
+}
+#search-form>label{
+    display: block;
+    font-weight: bold;
+}
+#search-form>input{
+    padding: 5px 30px 5px 5px;
+    margin: 2px;
+    border: 2px solid #D1D1D1;
+    border-radius: 3px;
+    outline: none;
+    position: relative;
+    width: 150px;
+}
+i{
+    position: relative;
+    right: 30px;
+    font-size: 20px;
+}
+section#details{
+    display: flex;
+}
+article#left-side{
+    width: 50%;
+}
+form#personal-details > input{
+    display: block;
+    padding: 5px;
+    margin: 10px 0 10px 0;
+    border: 2px solid #D1D1D1;
+    border-radius: 3px;
+}
+div.left-form, div.right-form{
+    display: inline-block;
+}
+div.right-form> label, div.left-form> label{
+    display: block;
+}
+select#room{
+    width: 400px;
+}
+#num-of-room{
+    padding: 5px;
+    margin: 2px;
+    border: 2px solid #D1D1D1;
+    border-radius: 3px;
+    outline: none;
+}
+#room, #check-in, #check-out{
+    padding: 2px;
+    border: 2px solid #D1D1D1;
+    border-radius: 3px;
+    outline: none;
+}
+#check-in, #check-out{
+    width: 100%;
+}
+form.parent-form:last-child>div{
+    width: 48%;
+}
+form.parent-form:last-child>div.left-form{
+    margin-right: 10px;
+}
+button{
+    float: right;
+    padding: 5px 30px;
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #FFFFFF;
+    background-color: #32A2E4;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+
+}
+button:hover{
+    background-color: #3BBC96;
+    cursor: pointer;
+}

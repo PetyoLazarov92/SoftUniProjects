@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+main {
+    background: url(images/food-image-bg.png) no-repeat center / cover;
+    height: 620px;
+    width: 1200px;
+    margin: 5em auto 0 auto;
+    border-radius: 20px;
+}
+
+div.recipies-info p{
+    display: inline-block;
+    padding: 15px;
+    margin-top: 1.5em;
+    vertical-align: top;
+}
+div.recipies-info p:first-child{
+    margin-left: 9em;
+}
+h1{
+    font-size: 3em;
+    display: inline-block;
+    float: right;
+    padding-right: 4em;
+    margin-top: 0.7em;
+    vertical-align: top;
+    text-transform: uppercase;
+}
+div.recipies-info p span{
+    color: #b5c640;
+}
+ul li{
+    list-style: none;
+    display: block;
+    float: right;
+    width: 650px;
+    font-size: 14px;
+    padding: 20px 0 20px 0;
+    text-align: justify;
+    margin-right: 2em;
+}
+.btn-primary{
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 14px;
+    border: 2px solid #ffffff;
+    outline: none;
+    padding: 10px 25px 10px 25px;
+    border-radius: 50px;
+    display: inline-block;
+    float: right;
+    margin: 1em 1.5em 0 1.5em;
+}
+.btn-primary:hover{
+    cursor: pointer;
+    background-color: #b5c640;
+    border-color: #b5c640;
+}

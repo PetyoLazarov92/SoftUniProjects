@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Room Reservation</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="room-reservation.css">
+</head>
+<body>
+<header>
+    <h1>Room Reservation</h1>
+</header>
+<section id="basic-info">
+    <h2>Basic Information</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at nibh varius odio sollicitudin
+        blandit nec eu elit. Suspendisse ac risus nunc, quis elementum lorem. Pellentesque vehicula egestas eros
+        nec commodo.</p>
+    <form id="search-form" action="">
+        <label for="search">Search</label>
+        <input id="search" type="text">
+        <i class="fa fa-search fa-lg"></i>
+    </form>
+</section>
+<section id="details">
+    <article id="left-side">
+        <h2>Personal Details</h2>
+        <form id="personal-details" action="">
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Last Name">
+            <input type="text" placeholder="Enter Email">
+        </form>
+    </article>
+    <article id="right-side">
+        <h2>Request a reservation</h2>
+        <form class="parent-form" action="">
+            <div class="left-form">
+                <label for="room">Select a Room</label>
+                <select name="room" id="room">
+                    <option value="room1">Room 1</option>
+                    <option value="room2">Room 2</option>
+                    <option value="room3" selected="selected">Room 3</option>
+                    <option value="room4">Room 4</option>
+                </select>
+            </div>
+
+            <div class="right-form">
+                <label for="num-of-room">Number of Rooms</label>
+                <input id="num-of-room" type="number" value="1">
+            </div>
+        </form>
+
+        <form class="parent-form">
+            <div class="left-form">
+                <label for="check-in">Check-In:</label>
+                <input id="check-in" type="date">
+            </div>
+            <div class="right-form">
+                <label for="check-out">Check-Out:</label>
+                <input id="check-out" type="date">
+            </div>
+        </form>
+    </article>
+</section>
+<section id="book-now">
+    <button>book now</button>
+</section>
+</body>
+</html>

@@ -1,0 +1,50 @@
+@media all and (max-width: 481px){
+    .header-wrapper .top-button{
+        display: none;
+    }
+
+    .logo-image-container{
+       display: block;
+        text-align: center;
+    }
+
+    .header-wrapper{
+        background-color: #000000;
+    }
+
+    .header-title{
+        font-size: 2.5em;
+    }
+    .header-subtitle{
+        display: none;
+    }
+    .introduction-subtitle{
+        font-size: 1.2em;
+        line-height: 1.5em;
+    }
+
+    .wrapper{
+        flex-direction: column;
+    }
+
+    .service-info{
+        font-size: 15px;
+        line-height: 1.5em;
+    }
+    .travel-title-container{
+        width: 100%;
+    }
+    .travel-title{
+        font-size: 2.5em;
+    }
+    .travel-subtitle{
+        width: 75%;
+        line-height: 2em;
+    }
+    .footer-list{
+        float: none;
+        display: block;
+        text-align: center;
+        margin-top: 1.5em;
+    }
+}
